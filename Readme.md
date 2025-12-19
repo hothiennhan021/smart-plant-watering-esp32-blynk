@@ -55,10 +55,7 @@ const char* WIFI_PASS  = "YOUR_WIFI_PASS";
 const char* BLYNK_AUTH = "YOUR_BLYNK_AUTH_TOKEN";
 
 
-
----
-
-## PHẦN 4 – TỐI ƯU + GIỚI HẠN + THÔNG TIN ĐỒ ÁN
+## TỐI ƯU + GIỚI HẠN + THÔNG TIN ĐỒ ÁN
 
 ## Tối ưu & độ ổn định
 - Sử dụng `Blynk.begin()` kết hợp `BlynkTimer` để tránh block loop
