@@ -47,16 +47,17 @@ Hệ thống tưới cây tự động sử dụng ESP32 và Blynk IoT, được
 ## Cách sử dụng
 1. Mở file code `.ino`
 2. Điền thông tin WiFi và Blynk token:
-```cpp
+
 const char* WIFI_SSID  = "YOUR_WIFI_SSID";
 const char* WIFI_PASS  = "YOUR_WIFI_PASS";
 const char* BLYNK_AUTH = "YOUR_BLYNK_AUTH_TOKEN";
 
 
+
 ---
 
 ## 📌 PHẦN 4 – TỐI ƯU + GIỚI HẠN + THÔNG TIN ĐỒ ÁN
-```md
+
 ## Tối ưu & độ ổn định
 - Sử dụng `Blynk.begin()` kết hợp `BlynkTimer` để tránh block loop
 - Tăng `BLYNK_HEARTBEAT` và `BLYNK_TIMEOUT_MS` để chống mất kết nối khi WiFi yếu
